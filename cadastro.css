@@ -1,0 +1,118 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+ 
+}
+
+.areaLogo{
+    display: flex;
+    align-items: center;
+}
+
+.imagemLogo {
+    width: 200px;
+    height: 200px;
+    background-image: url(Imagem-logo-Iconic-Cars.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+
+
+.tituloSite {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.nav-menu a {
+    color: black;
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 500;
+   
+}
+
+
+
+.box{
+   
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+.caixaTexto{
+    background-color:white ;
+    border-radius: 30px;
+    opacity: 0.7;
+   
+}
+
+
+.botaoCentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    opacity: 0.9;
+   
+}
+
+
+.caracteristicasBotao{
+    background-color: rgb(35, 35, 37);
+}
+
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagemFundo{
+    background-image: url(iconic-cars.png);
+    width: 1020px;
+    height:1000px;
+    opacity: 0.5;
+}
+
+
+input[type="text"] {
+    width: 800px;
+    height: 100px;
+  }
+
+
+textarea {
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+}
+
+
+.fonteDeTexto{
+    font-family: serif;
+    color: black;
+}
+
+
+.section{
+    margin-top: 100px;
+}
+
+.margemBotao{
+    margin-top: 20px;
+}
