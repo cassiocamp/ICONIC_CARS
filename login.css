@@ -42,16 +42,6 @@
 
 
 
-.box{
-   
-    height: 400px;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-}
-
-
 .caixaTexto{
     background-color:white ;
     border-radius: 30px;
@@ -83,12 +73,17 @@
 
 
 .imagemFundo{
-    background-image: url(c:\Users\cassio_campestrini\Documents\cássio\iconic-cars.png);
-    width: 1020px;
-    height:1000px;
+    background-image: url("iconic-cars.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    border-radius: 30px;
     opacity: 0.5;
 }
-
 
 input[type="text"] {
     width: 800px;
@@ -127,5 +122,11 @@ textarea {
     margin-top: 100px; /* altura do cabeçalho */
 }
 
-
-
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
+}

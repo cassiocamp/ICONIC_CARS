@@ -8,7 +8,6 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
  
 }
-
 .areaLogo{
     display: flex;
     align-items: center;
@@ -38,35 +37,3 @@
     font-size: 40px;
     font-weight: 500;
    
-}
-
-
-
-
-.imagemFundo{
-    background-image: url("iconic-cars.png");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 800px;
-    border-radius: 30px;
-    
-}
-
-
-.margemTopo {
-    margin-top: 20px; /* altura do cabeçalho */
-}
-
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* centraliza horizontalmente */
-    justify-content: center; /* centraliza verticalmente */
-}
-

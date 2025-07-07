@@ -82,12 +82,20 @@
 }
 
 
+
 .imagemFundo{
-    background-image: url(iconic-cars.png);
-    width: 1020px;
-    height:1000px;
+    background-image: url("iconic-cars.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 900px;
+    border-radius: 30px;
     opacity: 0.5;
 }
+
 
 
 input[type="text"] {
@@ -115,4 +123,13 @@ textarea {
 
 .margemBotao{
     margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
 }
