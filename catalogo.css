@@ -39,6 +39,7 @@
    
 }
 
-.imagemFundo{
-    background-image: url("");
+.dodgeCharger{
+    background-position-x: 300px;
+    background-position-y: 1000px;
 }
