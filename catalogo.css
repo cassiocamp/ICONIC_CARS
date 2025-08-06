@@ -40,6 +40,31 @@
 }
 
 .dodgeCharger{
-    background-position-x: 300px;
-    background-position-y: 1000px;
+    width: 1000px;
+    height: auto;
+    margin-left: 1250px;
+    text-align: center;
 }
+
+.alinharTextoDodgeCharger{
+    margin-left: 1430px;
+    margin-top: -200px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.supra{
+    width: 900px;
+    height: auto;
+    margin-left: px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.alinharTextoSupra{
+    margin-left: px;
+    margin-top: -200px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
